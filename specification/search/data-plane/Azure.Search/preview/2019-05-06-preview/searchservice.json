@@ -2253,7 +2253,10 @@
           "description": "A regular expression pattern to match token separators. Default is an expression that matches one or more whitespace characters."
         },
         "flags": {
-          "$ref": "#/definitions/RegexFlags",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/RegexFlags"
+          },
           "description": "Regular expression flags."
         },
         "stopwords": {

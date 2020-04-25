@@ -57,7 +57,7 @@
             "type": "string"
           }
         ],
-        "x-ms-request-id": "request-id",
+        "x-ms-request-ids": "request-id",
         "responses": {
           "200": {
             "description": "",

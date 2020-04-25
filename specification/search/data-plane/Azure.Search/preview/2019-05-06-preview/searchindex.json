@@ -49,6 +49,12 @@
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
+          },
+          {
+            "name": "Accept",
+            "in": "header",
+            "required": true,
+            "type": "string"
           }
         ],
         "x-ms-request-id": "request-id",

@@ -51,11 +51,7 @@
             "$ref": "#/parameters/ApiVersionParameter"
           },
           {
-            "name": "Accept",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "enum": [ "application/json;odata.metadata=none" ]
+            "$ref": "#/parameters/AcceptParameter"
           }
         ],
         "x-ms-request-id": "request-id",
@@ -1502,6 +1498,14 @@
       "x-ms-skip-url-encoding": false,
       "description": "The name of the index.",
       "x-ms-parameter-location": "client"
+    },
+    "AcceptParameter": {
+      "name": "Accept",
+      "in": "header",
+      "required": true,
+      "type": "string",
+      "enum": [ "application/json;odata.metadata=none" ],
+      "x-ms-parameter-location": "method"
     }
   }
 }

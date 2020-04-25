@@ -293,9 +293,7 @@
             "name": "Accept",
             "in": "header",
             "required": true,
-            "type": "string",
-            "enum": [ "application/json; odata.metadata=none" ],
-            "x-ms-parameter-location": "method"
+            "type": "string"
           }
         ],
         "x-ms-request-id": "request-id",

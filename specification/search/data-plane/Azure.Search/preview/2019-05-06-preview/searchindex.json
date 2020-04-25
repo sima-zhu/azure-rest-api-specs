@@ -1504,7 +1504,10 @@
       "in": "header",
       "required": true,
       "type": "string",
-      "enum": [ "application/json;odata.metadata=none" ],
+      "enum": [
+        "application/json;odata.metadata=none"
+      ],
+      "description": "pilipala",
       "x-ms-parameter-location": "method"
     }
   }

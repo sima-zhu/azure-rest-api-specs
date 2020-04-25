@@ -57,7 +57,7 @@
             "type": "string"
           }
         ],
-        "x-ms-request-ids": "request-id",
+        "x-ms-request-id": "request-id",
         "responses": {
           "200": {
             "description": "",
@@ -67,7 +67,7 @@
             }
           },
           "default": {
-            "description": "Error response.",
+            "description": "Error response.hhhhhhhhhhhhhhhhhhhhh",
             "schema": {
               "$ref": "#/definitions/SearchError"
             }
